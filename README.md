@@ -1,5 +1,9 @@
 # clothing-store
 
+Site template: https://www.w3schools.com/w3css/tryw3css_templates_clothing_store.htm
+
+API URL: http://www.mocky.io/v2/5ab0d1882e0000e60ae8b7a6
+
 ## Project setup
 ```
 npm install
