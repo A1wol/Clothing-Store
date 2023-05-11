@@ -37,7 +37,7 @@ export default Vue.extend({
   }),
   methods: {
     async getItemList() {
-      await Axios.get("http://www.mocky.io/v2/5ab0d1882e0000e60ae8b7a6").then(
+      await Axios.get("https://www.mocky.io/v2/5ab0d1882e0000e60ae8b7a6").then(
         (response) => {
           this.itemList = response.data;
         }

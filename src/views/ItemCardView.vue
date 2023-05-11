@@ -63,7 +63,7 @@ export default Vue.extend({
     }),
     methods: {
         async getItemDetails() {
-            await Axios.get("http://www.mocky.io/v2/5ab0d1882e0000e60ae8b7a6").then((response) => {
+            await Axios.get("https://www.mocky.io/v2/5ab0d1882e0000e60ae8b7a6").then((response) => {
                 let item = response.data.find(
                     (el: any) =>
                         el.id == this.$route.params.id
